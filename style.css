@@ -1,0 +1,252 @@
+body{
+    margin: 0%;
+}
+nav{
+    float: right;
+    top: 0%;
+    margin-top: -10%;
+    margin-right: 2%;
+    /* 0D0D0D */
+}
+nav a{
+    padding: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+a:hover{
+    text-decoration: underline yellow;
+}
+
+#HomePage{
+    text-align: center;
+    color: white;
+    padding-top:10em;
+    background-image: url("images/adrien-olichon-ilVYjf0J378-unsplash.jpg");
+    background-size: cover;
+    height:80vh;
+    width:100%;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.intro{
+    font-size: 50px;
+}
+#name{
+    color: yellow;
+}
+#btnView{
+    width: 15%;
+    height: 6vh;
+    font-size: 20px;
+    border: 1px solid yellow;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: white;
+}
+
+#btnView:hover{
+    background-color: yellow;
+    color: black; 
+}
+#AboutPage{
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+}
+hr{
+    width: 5%;
+    margin-top: -2%;
+    height: 4px; 
+    border: transparent;
+    background-color: yellow;
+}
+
+.imgAbout{
+    width: 15%;
+    margin-right:5%;
+}
+#myimages{
+    margin-left: 50%;
+    margin-top: 4%;
+    justify-content: center;
+   
+}
+.abtmeContent{
+    margin-left: 30%;
+}
+
+#aboutText{
+    text-align: center;
+    font-size: 24px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.aboutMe{
+    width: 40%;
+    height:40vh;
+    justify-content: center;
+    margin-left: 30%;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+#me{
+    height: 70%;
+    position: absolute;
+    top: 130%;
+    margin-left: 10%;
+}
+
+#btnResume{
+    width: 10%;
+    height: 5vh;
+    background-color: transparent;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 51%;
+    margin-top: -5%;
+    border: 3px solid yellow;
+}
+#btnResume:hover{
+    background-color: yellow;
+
+}
+
+#ProjectsPage{
+    background-color: whitesmoke;
+
+}
+.First-row-proj{
+    display: flex;
+    margin-left: 4%;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:90%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(8, 8, 8);
+   
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #btnContainer{
+      width: 80%;
+      height:5vh;
+      font-size: 18px;
+      border: 3px solid yellow;
+      letter-spacing: 1px;
+      background-color: transparent;
+      color: white;
+
+  }
+  #btnContainer:hover{
+      background-color: yellow;
+      color: black;
+
+  }
+  .btnprojects{
+      text-decoration: none;
+      color: white;
+  }
+
+  .Second-row-proj{
+    display: flex;
+    margin-left: 4%;
+    margin-bottom: 3%;
+  }
+
+#ContactPage{
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    justify-content: center;
+}
+.form{
+    margin-left: 38%;
+    
+}
+input{
+    width: 60%;
+    height:5vh ;
+    margin-top: 4%;
+    border-radius: 5px;
+    border: transparent;
+}
+textarea{
+    width: 60%;
+    margin-top: 4%;
+    border-radius: 5px;
+    border: transparent;
+}
+#btnSend{
+    margin-top: 2%;
+    height: 5vh;
+    width: 15%;
+    background-color: transparent;
+    color: white;
+    border: 3px solid yellow;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+#btnSend:hover{
+    background-color: yellow;
+    color: black;
+}
+
+h3{
+    color: yellow;
+    font-size: 20px;
+    margin-bottom: -2%;
+    margin-top: 9%;
+}
+footer{
+    background-color: black;
+    height: 10vh;
+    color: white;
+    text-align: center;
+}
+
+           
