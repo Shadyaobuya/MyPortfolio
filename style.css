@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    background-color: whitesmoke;
 }
 nav{
     float: right;
@@ -41,7 +42,7 @@ a:hover{
 #btnView{
     width: 15%;
     height: 6vh;
-    font-size: 20px;
+    font-size: 1.8vw;
     border: 1px solid yellow;
     letter-spacing: 1px;
     background-color: transparent;
@@ -86,8 +87,8 @@ hr{
 
 #aboutText{
     text-align: center;
-    font-size: 24px;
-    margin-left: 30%;
+    font-size: 2vw;
+    margin-left: 27%;
     margin-top: 5%;
 }
 
@@ -96,29 +97,33 @@ hr{
     height:40vh;
     justify-content: center;
     margin-left: 30%;
-    font-size: 24px;
+    font-size: 1.6vw;
     letter-spacing: 1px;
 }
+
 
 #me{
     height: 70%;
     position: absolute;
     top: 130%;
     margin-left: 10%;
+    max-height: 60%;
 }
 
 #btnResume{
     width: 10%;
     height: 5vh;
+    font-size: 1.4vw;
     background-color: transparent;
-    letter-spacing: 2px;
     position: absolute;
     left: 51%;
-    margin-top: -5%;
-    border: 3px solid yellow;
+    margin-top: -3%;
+    border: 2px solid rgb(10, 10, 10);
+    
 }
 #btnResume:hover{
     background-color: yellow;
+    border: transparent;
 
 }
 
@@ -129,6 +134,8 @@ hr{
 .First-row-proj{
     display: flex;
     margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .container {
@@ -248,5 +255,14 @@ footer{
     color: white;
     text-align: center;
 }
+#getinTouch{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5vw;
+    position: absolute;
+    left: 5%;
+    margin-top: 11%;
+    color: yellow;
 
+
+}
            
