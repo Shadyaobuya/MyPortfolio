@@ -7,7 +7,6 @@ nav{
     top: 0%;
     margin-top: -10%;
     margin-right: 2%;
-    /* 0D0D0D */
 }
 nav a{
     padding: 20px;
@@ -103,11 +102,11 @@ hr{
 
 
 #me{
-    height: 70%;
     position: absolute;
-    top: 130%;
+    top: 131%;
     margin-left: 10%;
-    max-height: 60%;
+    max-height: 50%;
+    max-width:100% ;
 }
 
 #btnResume{
@@ -116,9 +115,10 @@ hr{
     font-size: 1.4vw;
     background-color: transparent;
     position: absolute;
-    left: 51%;
     margin-top: -3%;
+    margin-left: 20%;
     border: 2px solid rgb(10, 10, 10);
+    text-align: center;
     
 }
 #btnResume:hover{
@@ -211,7 +211,7 @@ hr{
     justify-content: center;
 }
 .form{
-    margin-left: 38%;
+    margin-left: 33%;
     
 }
 input{
@@ -234,7 +234,7 @@ textarea{
     background-color: transparent;
     color: white;
     border: 3px solid yellow;
-    font-size: 18px;
+    font-size: 1.5vw;
     letter-spacing: 2px;
     border-radius: 5px;
 }
