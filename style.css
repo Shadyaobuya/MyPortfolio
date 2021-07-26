@@ -26,7 +26,7 @@ a:hover{
     padding-top:10em;
     background-image: url("images/adrien-olichon-ilVYjf0J378-unsplash.jpg");
     background-size: cover;
-    height:80vh;
+    height:78vh;
     width:100%;
     background-position: center;
     display: table;
@@ -54,7 +54,7 @@ a:hover{
 }
 #AboutPage{
     height: 100vh;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .heading{
@@ -75,25 +75,25 @@ hr{
     margin-right:5%;
 }
 #myimages{
-    margin-left: 50%;
-    margin-top: 4%;
+    margin-left: 30%;
+    
     justify-content: center;
    
 }
 .abtmeContent{
-    margin-left: 30%;
+    margin-left: 40%;
+    margin-top: 4%;
 }
 
 #aboutText{
     text-align: center;
     font-size: 2vw;
-    margin-left: 27%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .aboutMe{
     width: 40%;
-    height:40vh;
+    height:30vh;
     justify-content: center;
     margin-left: 30%;
     font-size: 1.6vw;
@@ -103,7 +103,7 @@ hr{
 
 #me{
     position: absolute;
-    top: 131%;
+    top: 122%;
     margin-left: 10%;
     max-height: 50%;
     max-width:100% ;
@@ -115,8 +115,8 @@ hr{
     font-size: 1.4vw;
     background-color: transparent;
     position: absolute;
-    margin-top: -3%;
-    margin-left: 20%;
+    margin-top: 3%;
+    margin-left: 24%;
     border: 2px solid rgb(10, 10, 10);
     text-align: center;
     
@@ -206,7 +206,7 @@ hr{
   }
 
 #ContactPage{
-    height: 100vh;
+    height: 90vh;
     background-color: rgb(31, 30, 30);
     justify-content: center;
 }
@@ -257,11 +257,12 @@ footer{
 }
 #getinTouch{
     font-family: 'Dancing Script', cursive;
+    text-align: center;
     font-size: 5vw;
-    position: absolute;
     left: 5%;
-    margin-top: 11%;
+    margin-top: 0%;
     color: yellow;
+    margin-bottom: -1%;
 
 
 }
