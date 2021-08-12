@@ -74,6 +74,10 @@ hr{
     width: 15%;
     margin-right:5%;
 }
+.imgAbout img{
+    width: 20%;
+    height: 10vh;
+}
 #myimages{
     margin-left: 30%;
     
@@ -206,54 +210,19 @@ hr{
   }
 
 #ContactPage{
-    height: 90vh;
+    height: 50vh;
     background-color: rgb(31, 30, 30);
     justify-content: center;
 }
-.form{
-    margin-left: 33%;
-    
-}
-input{
-    width: 60%;
-    height:5vh ;
-    margin-top: 4%;
-    border-radius: 5px;
-    border: transparent;
-}
-textarea{
-    width: 60%;
-    margin-top: 4%;
-    border-radius: 5px;
-    border: transparent;
-}
-#btnSend{
-    margin-top: 2%;
-    height: 5vh;
-    width: 15%;
-    background-color: transparent;
-    color: white;
-    border: 3px solid yellow;
-    font-size: 1.5vw;
-    letter-spacing: 2px;
-    border-radius: 5px;
-}
-#btnSend:hover{
-    background-color: yellow;
-    color: black;
-}
 
-h3{
-    color: yellow;
-    font-size: 20px;
-    margin-bottom: -2%;
-    margin-top: 9%;
-}
 footer{
     background-color: black;
-    height: 10vh;
+    height: 8vh;
     color: white;
     text-align: center;
+    font-size: 1.2vw;
+    letter-spacing: 1%;
+    padding-top: 2%;
 }
 #getinTouch{
     font-family: 'Dancing Script', cursive;
@@ -263,7 +232,37 @@ footer{
     margin-top: 0%;
     color: yellow;
     margin-bottom: -1%;
+}
 
+.icon2{
+    display: flex;
+   
+  justify-content: center;
+   
 
 }
+i{
+    margin: 2%;
+    margin-bottom: 2%;
+}
+
+.contacticon{
+    color: white;
+    margin-top: -2%;
+
+}
+.cmicon{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin-top: -1%;
+  
+}
+#ic{
+    margin-right: 3%;
+}
+/* #gmail{
+    display: block;
+
+} */
            
