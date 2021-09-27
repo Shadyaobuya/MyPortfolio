@@ -1,3 +1,3 @@
 # MyPortfolio
 
-A link to my portfolio(https://gifted-wilson-74946c.netlify.app/)
+A link to my portfolio(https://shadya-obuya-gard.netlify.app/)
